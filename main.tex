@@ -20,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\documentclass[8pt]{cv} % Default font size, values from 8-12pt are recommended
 
 %----------------------------------------------------------------------------------------
 
@@ -44,14 +44,15 @@
 	%{\huge Web App Architect} % Career or current job title
 \end{minipage}
 \hfill % Whitespace between
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+\begin{minipage}[t]{0.300\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Phone}{12}{+33 6 31 30 67 38}\\
-	\icon{At}{12}{\href{mailto:hugo@wehbe.io}{hugo@wehbe.pro}}\\	
+	\icon{Phone}{12}{(647) 795-3071}\\
+	\icon{At}{12}{\href{mailto:hugo@wehbe.pro}{hugo@wehbe.pro}}\\	
 	\icon{Github}{12}{\href{https://github.com/h-wb}{github.com/h-wb}}\\
+	\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/hugo-wehbe}{linkedin.com/in/hugo-wehbe}}\\
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
@@ -72,22 +73,20 @@
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\cvsect{à propos}
+	\cvsect{About}
 	
-	 Passionné de développement web et de DevOps, j'aide les entreprises en proposant mes services dans la création de site web, dans le développement d'applications front complexe mais aussi dans la mise en place ou la maintenance d'usines logicielles (orchestration, intégration continue, ...)
+	    Passionate about programming and DevOps, with over 2 years of experience in France and Luxembourg. I am currently based in Toronto and seeking a position as a Cloud Engineer or a Frontend Software Engineer.
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\cvsect{compétences}
+	\cvsect{Skills}
 	
-	\textbf{Languages}  : \texttt{JS} - \texttt{C++} - \texttt{Java} - \texttt{PHP}\\
+	\textbf{Languages}  : \texttt{JS} - \texttt{TS} - \texttt{Node}\\
 
-	\textbf{Framework} :  \texttt{Vue.js} - \texttt{Vuetify} - \texttt{React}\\
+	\textbf{Framework} :  \texttt{Vue.js} - \texttt{Svelte} - \texttt{Angular}\\
 	
-	\textbf{Technologies} :  \texttt{Maven} - \texttt{Docker} - \texttt{Ansible} - \texttt{Terraform} - \texttt{k8s}\\
-	
-	\textbf{Autres} :  \texttt{Photoshop} - \texttt{Office} - \texttt{Vegas Pro}
+	\textbf{Technologies} :  \texttt{Maven} - \texttt{Docker} - \texttt{Ansible} - \texttt{Terraform} - \texttt{Kubernetes}\\
 
 \end{minipage}
 
@@ -103,38 +102,46 @@
 
 \begin{entrylist}
 	\entry
-		{10 - 11/2020\\\footnotesize{Freelance}}
-		{Developpeur web}
-		{}
-		{- Création et design d'un site de vente de produits ménagers.\\
-- Optimisation du SEO et création de campagne de pubs. \\ \texttt{Wordpress}\slashsep\texttt{Divi}\slashsep\texttt{Google Analytics}\slashsep\texttt{Facebook Ads}\slashsep\texttt{Adobe Illustrator}}
+		{Present\vspace{0.6cm}\\\hspace*{0.6cm}|\vspace{0.6cm}\\ 09/2021\\\footnotesize{}}
+		{Fullstack Software Developer}
+		{FundsDLT (SFEIR) - Luxembourg}
+		{- Frontend development on an application for banking transactions between investment funds via the blockchain. \\
+		- Development of an application allowing the consultation and edition of configuration parameters of the above mentioned application.\\
+        - Development and integration of a tool allowing the automation of non-regression tests on the platform.\\ 
+        \texttt{Svelte}\slashsep\texttt{Svelte Kit}\slashsep\texttt{Node}\slashsep\texttt{Kubernetes}\slashsep\texttt{Gitlab}}
 	\entry
-		{09/2019-09/2020\\\footnotesize{Alternance}}
-		{Developpeur}
+		{08/2021\vspace{0.4cm}\\\hspace*{0.6cm}|\vspace{0.4cm}\\ 02/2021\\\footnotesize{}}
+		{Fullstack Software Developer}
+		{Victor Buck Services (SFEIR) - Luxembourg}
+		{- Re-wrote a document management application with electronic signatures (AngularJS to Angular 12, Node 8 to Node 14).\\
+		 - Implemented various deployments and continious integration processes of the application. \\
+		\texttt{Angular}\slashsep\texttt{Node}\slashsep\texttt{Docker}\slashsep\texttt{Jenkins}\slashsep\texttt{Gitlab}}
+	\entry
+		{12/2020\vspace{0.1cm}\\\hspace*{0.6cm}|\vspace{0.1cm}\\ 10/2020\\\footnotesize{Freelance}}
+		{Web developer}
+		{Metz}
+		{- Developed and designed a website for selling household products. \\
+		\texttt{Angular}\slashsep\texttt{Firebase}}
+	\entry
+		{09/2020\vspace{0.6cm}\\\hspace*{0.6cm}|\vspace{0.6cm}\\ 09/2019\\\footnotesize{Work/Study}}
+		{DevOps}
 		{Efluid - Metz}
-		{- Création, maintenance et tests de process dans le cadre de l'intégration continue des progiciels Efluid.\\
-- Support Technique pour les développeurs et recetteurs.\\ \texttt{Docker}\slashsep\texttt{Groovy}\slashsep\texttt{Jenkins}\slashsep\texttt{Maven}\slashsep\texttt{Mesos}\slashsep\texttt{Marathon}\slashsep\texttt{Shell}}
+		{- Created, maintained and tested processes within the framework of continuous integration of Efluid software packages.  \\
+- DevOps technical support for developers and integrators.\\
+- Cluster migration from Mesos to Kubernetes.\\
+\texttt{Docker}\slashsep\texttt{Groovy}\slashsep\texttt{Jenkins}\slashsep\texttt{Maven}\slashsep\texttt{Mesos}\slashsep\texttt{Marathon}\slashsep\texttt{Kubernetes}\slashsep\texttt{Shell}}
 	\entry
-		{12/2018-01/2019\\\footnotesize{Interim}}
-		{Developpeur front-end}
+		{01/2019\vspace{0.1cm}\\\hspace*{0.6cm}|\vspace{0.1cm}\\ 12/2018\\\footnotesize{Temporary}}
+		{Frontend Developer}
 		{Efluid - Metz}
-		{Maintenance et amélioration de l'application web d'aide à la saisie de paramètres techniques des progiciels Efluid. \\ \texttt{Vue.js}\slashsep\texttt{Vuex}\slashsep\texttt{Vuex ORM}\slashsep\texttt{Vuetify}\slashsep\texttt{Vue Router}}
+		{- Maintained and improved of the web application for technical parameters input of Efluid software packages \\ \texttt{Vue.js}\slashsep\texttt{Vuex}\slashsep\texttt{Vuex ORM}\slashsep\texttt{Vue Router}\slashsep\texttt{Vuetify}}
 	\entry
-		{08/2018\\\footnotesize{Interim}}
-		{Developpeur front-end}
+		{08/2018\vspace{0.25cm}\\\hspace*{0.6cm}|\vspace{0.25cm}\\ 04/2018\\\footnotesize{Temporary}}
+		{Frontend Developer}
 		{Efluid - Metz}
-		{Développement de tests unitaires pour le logiciel d'aide à la saisie des paramètres techniques des progiciels Efluid. \\ \texttt{Mocha}\slashsep\texttt{Chai.js}\slashsep\texttt{Sinon.js}}
-	\entry
-		{04 - 08/2018\\\footnotesize{Stage}}
-		{Developpeur front-end}
-		{Efluid - Metz}
-		{Développement d'un logiciel d'aide à la saisie des paramètres techniques des progiciels Efluid.\\ \texttt{Vue.js}\slashsep\texttt{Vuex}\slashsep\texttt{Vuex ORM}\slashsep\texttt{Vuetify}\slashsep\texttt{Vue Router}}
-	\entry
-		{05 - 08/2017\\\footnotesize{Stage}}
-		{Developpeur}
-		{Aribus Development Center - Wrexham, Wales}
-		{Développement d'un logiciel contrôlant la résistante de matériaux soumis à des micro-ondes.\\ \texttt{C++}}
+		{- Developed of a web application to help with technical parameters input of Efluid software packages for internal use and for customers \\ \texttt{Vue.js}\slashsep\texttt{Vuex}\slashsep\texttt{Vuex ORM}\slashsep\texttt{Vue Router}\slashsep\texttt{Vuetify}}
 \end{entrylist}
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -145,22 +152,22 @@
 \begin{entrylist}
 	\entry
 		{2020}
-		{Master 2 - Génie Informatique}
-		{UFR MIM - Metz}
-		{}
+		{Master 2 (Master's degree) in Software Engineering}
+		{Université de Lorraine - Metz}
+		{with honors}
 	\entry
 		{2018}
-		{Licence informatique}
-		{UFR MIM - Metz}
+		{Licence (Bachelor's degree) in Computer Science}
+		{Université de Lorraine - Metz}
 		{}
 	\entry
 		{2017}
-		{DUT informatique}
-		{IUT Saulcy - Metz}
-		{}
+		{DUT in Computer Science}
+		{Université de Lorraine - Metz}
+		{one semester abroad at Limerick University in Ireland}
 	\entry
 		{2015}
-		{Baccalauréat scientifique}
+		{High School Diploma}
 		{Lycée Georges de la Tour - Metz}
 		{}
 \end{entrylist}
@@ -172,31 +179,28 @@
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Langues}
+	\cvsect{Languages}
 	
-	\textbf{Français} - natif\\
-	\textbf{Anglais} - courant (C1)\\
-	\textbf{Allemand} - notions
+	\textbf{French} - Native\\
+	\textbf{English} - Proficient\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\cvsect{Loisirs}
+	\cvsect{Hobbies}
 	
-	\text{Lecture}\\
-	\text{Voyage}\\
-	\text{Cinema}\\
+	\text{Homelab}\\
+	\text{Motorcycles}\\
+	\text{Cooking}\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\cvsect{Autres}
+	\cvsect{Others}
 	
-	\textbf{TOEIC} - Score : 970\\
-	\textbf{Permis B/A}\\
-	\textbf{BAFA}
+	\textbf{Driver's license G/M}\\
 	
 \end{minipage}
 
